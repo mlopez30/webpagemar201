@@ -1,0 +1,69 @@
+/* My styles. Marina Lopez. */
+/* <!-- Marina Lopez Last edited 04/16/22 --> */
+
+
+body {
+    background-image: url(../images/sunset.JPEG)
+}
+#line{
+    color: #825f96;
+}
+.buttontext{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: rgb(13, 24, 20);
+    font-weight: normal;
+}
+.meimg{
+        max-width: 25%;
+        height: auto;
+        float: right;
+
+}
+.temple{
+    max-width: 25%;
+    height: auto;
+    float:right;
+    
+    
+}
+#resumetitle{
+    font-size: 65px;
+    text-align: center;
+}
+.mainbody{
+    top: 114;
+    bottom: 64;
+    left: 114;
+    right: 114;
+}
+.background{
+    background-image: url(../images/light\ sunset.JPEG)
+}
+
+.resumeheading{
+    text-align: center;
+}
+.resumetext{
+    text-transform: uppercase;
+    color: rgb(170, 104, 57);
+}
+.colorheading{
+    color: #e6a756;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+
+}
+.changecolor{
+    color: rgb(255, 255, 255);
+}
+.textmove{
+    text-align: left;
+}
+.over li a:hover {
+    text-decoration: underline;
+}
+
+.browntitle {
+    color: rgb(134, 110, 66);
+}
+

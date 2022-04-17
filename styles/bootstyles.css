@@ -1,0 +1,94 @@
+
+body{
+    background-color: rgb(237, 223, 250);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+.header{
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    height: 110px;
+}
+
+.mainbody{
+
+    top: 130px;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+}
+
+.footer{
+    bottom: 5px;
+    height: 80px;
+    position: relative;
+    background-color: antiquewhite;
+    padding: 10px;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: rgb(73, 44, 16);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.links {
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+}
+
+.links li {
+    list-style: none;
+}
+
+.headerstyle {
+    color: antiquewhite;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.linktext {
+    color: antiquewhite;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.linktext li a.active {
+    background-color: rgb(219, 195, 241);
+}
+
+.linktext li a:visited {
+    color: antiquewhite;
+}
+
+.footertext {
+    text-align: center;
+    font-size: smaller;
+}
+
+.tableau{
+    max-width: 55%;
+    padding-left: 300px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    
+}
+.linktextstyle{
+    text-align: center;
+    color: rgb(82, 56, 32);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
